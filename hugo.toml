@@ -1,0 +1,13 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Image Gallery'
+theme = 'hugo-theme-gallery'
+
+[params]
+  [params.author]
+    name = 'Kathy'
+  description = 'A photo gallery'
+  # Theme-specific parameters
+  color = '#ffffff'  # Background color
+  thumbWidth = 300   # Width of thumbnails
+  thumbHeight = 300  # Height of thumbnails

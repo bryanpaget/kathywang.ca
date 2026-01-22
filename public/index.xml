@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Image Gallery</title>
+    <link>http://localhost:8080/</link>
+    <description>Recent content on Image Gallery</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:8080/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kathy&#39;s Photo Gallery</title>
+      <link>http://localhost:8080/gallery/</link>
+      <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:8080/gallery/</guid>
+        <media:content url="http://localhost:8080/gallery/0002bc3559e6dcb1033b3149857b0cbbda7ea967_hu_74022a174153e928.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:8080/gallery/0002bc3559e6dcb1033b3149857b0cbbda7ea967_hu_74022a174153e928.jpg&quot; /&gt;
+          &lt;p&gt;A collection of beautiful images&lt;/p&gt;
+        </description></item>
+  </channel>
+</rss>
