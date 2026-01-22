@@ -6,6 +6,9 @@ on:
       - main  # Set this to your default branch
   pull_request:
 
+permissions:
+  contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-22.04
