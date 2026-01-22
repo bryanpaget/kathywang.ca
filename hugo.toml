@@ -1,13 +1,16 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://kathywang.ca/'
 languageCode = 'en-us'
-title = 'Image Gallery'
+title = 'Kathy Wang Photography'
 theme = 'hugo-theme-gallery'
 
 [params]
   [params.author]
-    name = 'Kathy'
+    name = 'Kathy Wang'
   description = 'A photo gallery'
   # Theme-specific parameters
   color = '#ffffff'  # Background color
   thumbWidth = 300   # Width of thumbnails
   thumbHeight = 300  # Height of thumbnails
+
+# For GitHub Pages deployment
+publishDir = 'docs'

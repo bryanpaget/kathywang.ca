@@ -1,0 +1,33 @@
+# Hugo generated files
+/public/
+/resources/_gen/
+ hugo_stats.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+
+# Virtual environments
+venv/
+.env
+.venv
+
+# Local hugo config
+hugo_stats.json
