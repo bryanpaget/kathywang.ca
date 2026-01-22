@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.152.2">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kathy Wang Photography</title>
@@ -65,23 +64,23 @@
     </div>
     
     <div class="footer">
-        © 2026 Kathy Wang. All rights reserved.
+        © {{ now.Format "2006" }} Kathy Wang. All rights reserved.
     </div>
     
     <script>
-        
+        // Optional: Add smooth transition effect
         document.querySelector('.enter-button').addEventListener('click', function(e) {
             e.preventDefault();
             const link = this.getAttribute('href');
             
-            
+            // Add fade out effect
             document.body.style.opacity = 0;
             setTimeout(() => {
                 window.location.href = link;
             }, 500);
         });
         
-        
+        // Fade in effect on page load
         document.body.style.opacity = 0;
         setTimeout(() => {
             document.body.style.transition = 'opacity 0.5s ease';
