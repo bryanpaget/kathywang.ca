@@ -8,7 +8,7 @@ copyright = '© Kathy Wang. All rights reserved.'
   [params.author]
     name = 'Kathy Wang'
   description = ''
-  defaultTheme = 'light'  # White/light theme
+  defaultTheme = 'light'  # Light theme
   # Theme-specific parameters
   color = '#ffffff'  # Background color
   thumbWidth = 300   # Width of thumbnails
