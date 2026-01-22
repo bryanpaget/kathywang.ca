@@ -1,3 +1,3 @@
 +++
-title = "Kathy Wang Photography"
+title = "Kathy Wang"
 +++
