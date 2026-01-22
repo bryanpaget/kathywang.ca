@@ -2,11 +2,13 @@ baseURL = 'https://kathywang.ca/'
 languageCode = 'en-us'
 title = 'Kathy Wang'
 theme = 'hugo-theme-gallery'
+copyright = '© Kathy Wang. All rights reserved.'
 
 [params]
   [params.author]
     name = 'Kathy Wang'
   description = ''
+  defaultTheme = 'light'  # White/light theme
   # Theme-specific parameters
   color = '#ffffff'  # Background color
   thumbWidth = 300   # Width of thumbnails
