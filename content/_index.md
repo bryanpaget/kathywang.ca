@@ -1,3 +1,7 @@
-+++
-title = "Kathy Wang"
-+++
+---
+title: "Home"
+date: 2026-01-22T00:00:00Z
+draft: false
+---
+
+Welcome to Kathy Wang's portfolio of art and photography.

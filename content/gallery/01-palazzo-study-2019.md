@@ -3,7 +3,7 @@ title: "palazzo study, 2019"
 date: 2024-01-11T00:00:00Z
 lastmod: 2024-01-11T00:00:00Z
 author: Kathy Wang
-cover: "/img/01-palazzo-study-2019.jpg"
+featured_image: "/img/01-palazzo-study-2019.jpg"
 images:
   - "/img/01-palazzo-study-2019.jpg"
 categories:
@@ -16,4 +16,4 @@ tags:
   - interiors
 ---
 
-palazzo study, 2019
+![palazzo study, 2019](/img/01-palazzo-study-2019.jpg)

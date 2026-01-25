@@ -1,90 +1,56 @@
 baseURL = 'https://kathywang.ca/'
 languageCode = 'en-us'
 title = 'Kathy Wang'
-theme = 'hugo-theme-dream'
 copyright = '© 2026 Kathy Wang. All rights reserved.'
-pagination.pagerSize = 20  # Show all posts on one page
+
+canonifyURLs = true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.116.0"
+  [[module.imports]]
+    path = "github.com/elecbrandy/freshpink"
+
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'Gallery'
+pageRef = '/gallery/'
+weight = 20
+
+[[menus.main]]
+name = 'About'
+pageRef = '/about/'
+weight = 30
+
 
 [params]
-  # Author information
-  author = 'Kathy Wang'
-  description = 'Kathy Wang: Art & Photography'
+  # --- Site Metadata ---
+  googleAnalytics = ""
+  copyright = '© 2026 Kathy Wang. All rights reserved.'
 
-  # Menu settings
-  showMenu = false
-  menuMore = false
+  # --- Theme & Display Settings ---
+  primaryColor = "#fa8b84"
+  math = true
 
-  # Animation settings
-  fadeIn = true
+  # --- GitHub Chart ---
+  githubUsername = "kathywang"
+  showGithubChart = false
 
-  # Code highlighting
-  highlightJs = true
+  # --- Main Image ---
+  mainImageUrl = "/avatar.png"
+  showMainImage = true
 
-  # Theme customization
-  defaultTheme = "auto"  # Options: "light", "dark", "auto"
-  hideColorSchemeToggle = true  # Whether to hide the color scheme toggle button
+[taxonomies]
+  tag = 'tags'
 
-  # Header settings
-  headerTitle = 'kathy wang'  # Text to show in the header instead of the site title
-  motto = 'kzw'  # Subtitle/motto to show under the title in the header
-
-  # Footer settings
-  footerBottomText = 'Artist | Lawyer | Investor'  # Additional text to show in the footer
-  showArchive = true  # Whether to show the archive link in the footer
-  showRss = true  # Whether to show the RSS link in the footer
-
-  # Archive settings
-  archiveGroupByDate = "2006-01"  # Format for grouping archive entries by date
-
-  # For GitHub Pages deployment
-  publishDir = 'docs'
-
-  # zenMode = true
-  
-  lightTheme = "emerald"
-  darkTheme = "forest"
-  
-  # backgroundImage = "img/global-background.jpg"
-  # backgroundImageDark = ""
-  
-  # images = ["img/global-background.jpg"]
-  
-  # avatar = "img/personal/avatar.jpg"
-  
-  # footerBottomText = ""
-  
-  # rss = true
-  
-  # utterancesRepo = "g1eny0ung/g1eny0ung.github.io"
-  
-  # valine = true
-  # LEANCLOUD_APP_ID = ""
-  # LEANCLOUD_APP_KEY = ""
-  
-  # waline = true
-  # walineServer = ""
-  
-  # email = "g1enyy0ung@gmail.com"
-  
-  # siteStartYear = 2012
-  
-  # favicon = "favicon.ico"
-    
-  # options
-  stickyNav = true
-  # reorderNavItems = ["about", "search", "rss", "posts", "categories", "tags"]
-  # collapseNavItems = ["posts", "categories", "tags"]
-  # noDefaultSummaryCover = true
-  showTableOfContents = true
-  showSummaryCoverInPost = true
-  imageZoomableInPost = true
-  showPrevNextPost = true
-  # reorderShares = ["x", "facebook", "whatsapp"]
-  
-  [params.advanced]
-  # customCSS = ["css/custom.css"]
-  # customJS = []
-  
-  [params.experimental]
-  # jsDate = true
-  # jsDateFormat = "yyyyMMdd"
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

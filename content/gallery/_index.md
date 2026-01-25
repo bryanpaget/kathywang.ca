@@ -1,9 +1,9 @@
 ---
-title: "Kathy Wang"
-date: 2026-01-21T00:00:00Z
-lastmod: 2026-01-21T00:00:00Z
-author: Kathy Wang
-weight: 1
+title: "Gallery"
+date: 2026-01-22T00:00:00Z
+draft: false
 ---
 
-# Kathy Wang
+# Art & Photography Gallery
+
+Explore my collection of artwork and photography.
