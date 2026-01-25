@@ -1,49 +1,12 @@
-{{ define "main" }}
-
-{{ partial "breadcrumb.html" . }}
-
-{{ if .Site.Params.showMainImage }}
-  <div class="main-image">
-    <img
-      src="{{ .Site.Params.mainImageUrl }}"
-      style="max-width: 600px"
-      alt="Main Image"
-    />
-  </div>
-{{ end }}
-
-{{ if and .Site.Params.showGithubChart .Site.Params.githubUsername .Site.Params.primaryColor }}
-  {{ $color := .Site.Params.primaryColor | replaceRE "^#" "" }}
-  <div class="commit">
-    <img
-      src="https://ghchart.rshah.org/{{ $color }}/{{ .Site.Params.githubUsername }}"
-    />
-  </div>
-{{ end }}
-
-<div class="posts-list">
-  {{ range first 10 .Site.RegularPages }}
-    <div class="post-item">
-      {{ if .Params.featured_image }}
-        <div class="post-image" style="display: inline-block; width: 100px; height: 100px; margin-right: 15px; vertical-align: top;">
-          <img src="{{ .Params.featured_image }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;">
-        </div>
-      {{ end }}
-      <div class="post-content" style="display: inline-block; width: calc(100% - 120px);">
-        <div class="post-title">
-          <a href="{{ .RelPermalink }}">- {{ .LinkTitle }}</a>
-          <small>{{ .Date | time.Format "2006.01.02" }}</small>
-        </div>
-        {{ if .Params.tags }}
-          <div class="post-tags" style="margin-top: 5px;">
-            {{ range .Params.tags }}
-              <span class="tag" style="display: inline-block; padding: 2px 6px; background-color: #f0f0f0; border-radius: 3px; font-size: 0.8em; margin-right: 4px;">{{ . }}</span>
-            {{ end }}
-          </div>
-        {{ end }}
-      </div>
-    </div>
-  {{ end }}
-</div>
-
-{{ end }}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>{{ site.Title }}</title>
+  <meta http-equiv="refresh" content="0; url=https://kathywang.tumblr.com/" />
+</head>
+<body>
+  <p>If you are not redirected automatically, follow this <a href="https://kathywang.tumblr.com/">link to Tumblr</a>.</p>
+</body>
+</html>
